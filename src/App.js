@@ -7,6 +7,7 @@ function App() {
 
   let [text, setText]= useState("")
   let [arr, setArr]=useState([])
+  let [filter, setFilter]= useState([])
 
   return (
     <div className="App">
@@ -15,6 +16,8 @@ function App() {
         setText={setText}
         arr={arr}
         setArr={setArr}
+        filter ={filter}
+        setFilter ={setFilter}
           />
     </div>
   );

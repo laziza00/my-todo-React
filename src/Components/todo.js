@@ -27,12 +27,18 @@ function Todo (props) {
                       text={item} 
                       arr={props.arr}
                       setArr={props.setArr}
+                      filter ={props.filter}
+                      setFilter={props.setFilter}
                     />
                   }) }
             </ul>
-            <Sort/>
+            <Sort  
+                 arr={props.arr}
+                 setArr={props.setArr}
+                 filter ={props.filter}
+                 setFilter={props.setFilter}/>
               <div className="todo__bottom">
-       
+
               </div>
             </div>
           </div>
