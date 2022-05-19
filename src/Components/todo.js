@@ -4,9 +4,9 @@ import Add from './Add/Add'
 import Item from './Item/Item'
 import Sort from './Sort/Sort'
 
-function Todo(props) {
+function Todo (props) {
   return (
-      <div>
+      <div >
         <div className="todo">
           <div className="container">
             <div className="todo__inner">
